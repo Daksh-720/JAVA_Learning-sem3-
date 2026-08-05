@@ -19,28 +19,28 @@ public class String_meth{
         //*5. equals()
         String s1 = "Java";
         String s2 = "Java";
-        System.out.println("equals : " + s1.equals(s2));
+        System.out.println("5. equals : " + s1.equals(s2));
 
         //*6. equalsIgnoreCase()
         String a1 = "Java";
         String a2 = "JAVA";
-        System.out.println("equalsIgnoreCase : " + a1.equalsIgnoreCase(a2));
+        System.out.println("6. equalsIgnoreCase : " + a1.equalsIgnoreCase(a2));
 
         //*7. trim()
-        System.out.println("trim() : " + str.trim());
+        System.out.println("7. trim() : " + str.trim());
 
         //*8. replace()
-        System.out.println("replace : " + str.replace("o", "a"));
+        System.out.println("8. replace : " + str.replace("o", "a"));
 
         //*9. contains()
-        System.out.println("contains : " + str.contains("Java"));
+        System.out.println("9. contains : " + str.contains("Java"));
 
         //*10. indexOf()
-        System.out.println("indexOf : " + str.indexOf("Java"));
+        System.out.println("10. indexOf : " + str.indexOf("Java"));
 
         //*12. startsWith()  -   13. endsWith()
         String wrd = "Programming";
-        System.out.println("startsWith : " + wrd.startsWith("Pro"));
-        System.out.println("endsWith : " + wrd.endsWith("ing"));
+        System.out.println("12. startsWith : " + wrd.startsWith("Pro"));
+        System.out.println("13. endsWith : " + wrd.endsWith("ing"));
     }
 }
